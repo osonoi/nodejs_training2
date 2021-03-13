@@ -1,0 +1,8 @@
+---
+applications:
+- name: my-nodejs-app-osonoi20210313
+  memory: 256M
+  instances: 1
+  random-route: true
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack
