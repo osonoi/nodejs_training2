@@ -10,13 +10,13 @@ const db = new sqlite3.Database('mydb.sqlite3');
 router.get('/',(req, res, next) => {
   db.serialize(() => {
     var rows = "";
-    var link1 = "<a href='/hello/show?id=";
-    var link2 = "'> 詳細表示 </a>";
+    var link1 = "<a href='/hello/show?id=";  //osonoi
+    var link2 = "'> 詳細表示 </a>";           //osonoi
     db.each("select * from mydata",(err, row) => {
       if (!err) {
         rows += "<tr><th>" + row.id + "</th><td>"
           + row.name + "</td><td>"
-          + link1 + row.id+ link2 + "</td></tr>";
+          + link1 + row.id+ link2 + "</td></tr>";   //osonoi
       }   
     }, (err, count) => {
       if (!err){
@@ -40,8 +40,8 @@ router.get('/add', (req, res, next) => {
 
 router.post('/add', (req, res, next) => {
   const nm = req.body.name;
-  const ml = req.body.mail;
-  const ag = req.body.age;
+  const ml = req.body.mail; 
+  const ag = req.body.age; 
   db.serialize(() => {
     db.run('insert into mydata (name, mail, age) values (?, ?, ?)',
       nm, ml, ag);
@@ -58,7 +58,7 @@ router.get('/show', (req, res, next) => {
               var data = {
               title: 'Hello/show',
               content: 'id = ' + id + ' のレコード：',
-              mydata: row
+              mydata: row,
           }
           res.render('hello/show', data);
           }   
