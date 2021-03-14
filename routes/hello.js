@@ -11,7 +11,7 @@ router.get('/',(req, res, next) => {
   db.serialize(() => {
     var rows = "";
     var link1 = "<a href='/hello/show?id=";
-    var link2 = "'> 詳細 </a>";
+    var link2 = "'> 詳細表示 </a>";
     db.each("select * from mydata",(err, row) => {
       if (!err) {
         rows += "<tr><th>" + row.id + "</th><td>"
