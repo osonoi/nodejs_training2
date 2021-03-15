@@ -43,10 +43,14 @@ my-nodejs-app-osonoi20210315                                          started   
 
 https://developer.ibm.com/openlabs/openshift
 
-こちらも参考にしてください。
+（やり方はこちらも参考にしてください。）
 
 https://qiita.com/osonoi/items/a5d3a5fe78455c842f42
 
+Administrator --> Developer への変更
+左メニューから”Add"を選択"Create a project"でプロジェクト作成
+任意の名前をつけてプロジェクト作成
+Container Imageを選択
 
 
 # アプリ使い方
