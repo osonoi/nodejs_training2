@@ -1,4 +1,7 @@
 # nodejsを使った入力アプリ
+# アプリ例
+
+https://my-nodejs-app-oso20200316-fearless-kob-he.mybluemix.net/hello
 
 # 準備(動作させるまで）
 
