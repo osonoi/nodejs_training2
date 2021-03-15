@@ -39,5 +39,14 @@ my-nodejs-app-osonoi20210315                                          started   
 (一番右の my-nodejs-app-osonoi20210315-brash-crane-wx.mybluemix.net がURL)
 
 ### OpenShiftで動作
+こちらのサイトでOpenShiftのコンソールを立ち上げてください。
+
+https://developer.ibm.com/openlabs/openshift
+
+こちらも参考にしてください。
+
+https://qiita.com/osonoi/items/a5d3a5fe78455c842f42
+
+
 
 # アプリ使い方
