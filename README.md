@@ -16,8 +16,8 @@ $ npm start
 
  Manifest.yam のname, "my-nodejs-app"をユニーク（他のものと重ならない）に変更
 
-'''
+```
 $ ibmcloud login
 $ ibmcloud target --cf
 $ ibmcloud cf push
-'''
+```
