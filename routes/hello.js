@@ -40,10 +40,10 @@ router.get('/add', (req, res, next) => {
 
 router.post('/add', (req, res, next) => {
   const nm = req.body.name;
-  const ml = req.body.mail; 
-  const ag = req.body.age; 
+  const ml = req.body.call_to; 
+  const ag = req.body.memo; 
   db.serialize(() => {
-    db.run('insert into mydata (name, mail, age) values (?, ?, ?)',
+    db.run('insert into mydata (name, call_to, memo) values (?, ?, ?)',
       nm, ml, ag);
   });
   res.redirect('/hello');
@@ -86,9 +86,9 @@ router.get('/edit', (req, res, next) => {
 router.post('/edit', (req, res, next) => {
   const id = req.body.id;
   const nm = req.body.name;
-  const ml = req.body.mail;
-  const ag = req.body.age;
-  const q = "update mydata set name = ?, mail = ?, age = ? where id = ?";
+  const ml = req.body.call_to;
+  const ag = req.body.memo;
+  const q = "update mydata set name = ?, call_to = ?, memo = ? where id = ?";
   db.serialize(() => {
     db.run(q, nm, ml, ag, id);
   });
