@@ -73,10 +73,10 @@ Administrator --> Developer への変更<br>
 左メニューから”Add"を選択"Create a project"でプロジェクト作成<br>
 任意の名前をつけてプロジェクト作成<br>
 Container Imageを選択<br>
-"Image name from external registry" に　(Docker Hubユーザー名)/node-web-app　を入力 (OpenShiftが場所を認識すると下に緑文字でValidatedと出る <br>
+"Image name from external registry" に　(Docker Hubユーザー名)/node-web-app　を入力<br>
+(OpenShiftが場所を認識すると下に緑文字でValidatedと出る) <br>
 下にスクロール"Create"をクリック<br>
 数分待つとトポロジー図の縁が青くなるとデプロイ完了右上のアイコンをクリックすると"Open URL"が出て別タブでアプリが起動
-
 
 
 # アプリ使い方
