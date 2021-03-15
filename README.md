@@ -68,7 +68,7 @@ https://developer.ibm.com/openlabs/openshift
 
 https://qiita.com/osonoi/items/a5d3a5fe78455c842f42
 
-手順
+* 手順<br>
 Administrator --> Developer への変更<br>
 左メニューから”Add"を選択"Create a project"でプロジェクト作成<br>
 任意の名前をつけてプロジェクト作成<br>
