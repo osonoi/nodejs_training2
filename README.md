@@ -13,7 +13,9 @@ $ npm start
 ```
 
 ## Cloud foundryで動作
- Manifest.yam のname, my-nodejs-appをユニーク（他のものと重ならない）に変更
+
+ Manifest.yam のname, "my-nodejs-app"をユニーク（他のものと重ならない）に変更
+
 '''
 $ ibmcloud login
 $ ibmcloud target --cf
