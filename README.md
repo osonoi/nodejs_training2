@@ -54,7 +54,7 @@ $ docker run -d --rm -p 3000:3000 (Docker Hubユーザー名)/node-web-app
 
 動作確認したら　$ docker stop (container ID)
 で停止しておきましょう。
-動作確認できたらDocker Hubにアップロード
+次にコンテナイメージをDocker Hubにアップロード
 ```
 $ docker login
 $ docker push (Docker Hubユーザー名)/node-web-app:latest
