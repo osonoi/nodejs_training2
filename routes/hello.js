@@ -21,7 +21,7 @@ router.get('/',(req, res, next) => {
     }, (err, count) => {
       if (!err){
         var data = {
-          title: 'Hello!!',
+          title: 'コールメモ一覧',
           content: rows
         };
         res.render('hello/index', data);        
@@ -32,7 +32,7 @@ router.get('/',(req, res, next) => {
 
 router.get('/add', (req, res, next) => {
   var data = {
-      title: 'Hello/Add',
+      title: 'コールメモ追加',
       content: '新しいレコードを入力：'
   }
   res.render('hello/add', data);
@@ -56,7 +56,7 @@ router.get('/show', (req, res, next) => {
       db.get(q, [id], (err, row) => {
           if (!err) {
               var data = {
-              title: 'Hello/show',
+              title: 'コールメモ詳細',
               content: 'id = ' + id + ' のレコード：',
               mydata: row,
           }
@@ -73,7 +73,7 @@ router.get('/edit', (req, res, next) => {
       db.get(q, [id], (err, row) => {
           if (!err) {
               var data = {
-              title: 'hello/edit',
+              title: 'コールメモ編集',
               content: 'id = ' + id + ' のレコードを編集：',
               mydata: row
           }
@@ -102,7 +102,7 @@ router.get('/delete', (req, res, next) => {
       db.get(q, [id], (err, row) => {
           if (!err) {
               var data = {
-              title: 'Hello/Delete',
+              title: 'コールメモ削除',
               content: 'id = ' + id + ' のレコードを削除：',
               mydata: row
           }
@@ -126,7 +126,7 @@ router.get('/find',(req, res, next) => {
     db.all("select * from mydata",(err, rows) => {
       if (!err) {
         var data = {
-          title: 'Hello/find',
+          title: 'コールメモ　検索',
           find:'',
           content:'検索条件を入力して下さい。',
           mydata: rows
