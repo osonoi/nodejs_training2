@@ -1,11 +1,11 @@
 # nodejs_training
-#準備(インストールと立ち上げ）
+#　準備(インストールと立ち上げ）
 
 ```
 $ git clone https://github.com/osonoi/nodejs_training2.git
 $ cd nodejs_training2.git
 ```
-## ローカルで動作
+### ローカルで動作
 
 ```
 $ npm install
@@ -14,7 +14,7 @@ $ npm start
 ブラウザーの別タブで　http://localhost:3000
 にアクセス
 
-## Cloud foundryで動作
+### Cloud foundryで動作
 
  Manifest.yam のname, "my-nodejs-app"をユニーク（他のものと重ならない）に変更(例　"my-nodejs-app-osonoi20210315")
 
@@ -36,5 +36,7 @@ $ ibmcloud cf apps | grep my-nodejs-app
 my-nodejs-app-osonoi20210315                                          started          1/1            256M       1G         my-nodejs-app-osonoi20210315-brash-crane-wx.mybluemix.net
 ```
 (一番右の my-nodejs-app-osonoi20210315-brash-crane-wx.mybluemix.net がURL)
+
+### OpenShiftで動作
 
 # アプリ使い方
