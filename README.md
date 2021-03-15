@@ -1,5 +1,5 @@
 # nodejs_training
-##準備
+#準備(インストールと立ち上げ）
 
 ```
 $ git clone https://github.com/osonoi/nodejs_training2.git
@@ -36,3 +36,5 @@ $ ibmcloud cf apps | grep my-nodejs-app
 my-nodejs-app-osonoi20210315                                          started          1/1            256M       1G         my-nodejs-app-osonoi20210315-brash-crane-wx.mybluemix.net
 ```
 (一番右の my-nodejs-app-osonoi20210315-brash-crane-wx.mybluemix.net がURL)
+
+# アプリ使い方
