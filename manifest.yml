@@ -1,6 +1,6 @@
 ---
 applications:
-- name: my-nodejs-app-osono
+- name: my-nodejs-app
   memory: 256M
   instances: 1
   random-route: true
