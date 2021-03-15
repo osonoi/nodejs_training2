@@ -1,6 +1,6 @@
 # nodejsを使った入力アプリ
 
-　準備(インストールと立ち上げ）
+#　準備(動作させるまで）
 
 ```
 $ git clone https://github.com/osonoi/nodejs_training2.git
