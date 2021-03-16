@@ -84,6 +84,9 @@ Container Imageを選択<br>
 
 # アプリ概要
 
+データベースの編集は　DB Browser for SQLiteでできます。
+https://sqlitebrowser.org/
+
 <kbd><img src="images/how.png" width="640px">
 
 <kbd><img src="images/overview.png" width="640px">
