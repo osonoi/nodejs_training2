@@ -7,7 +7,7 @@ https://my-nodejs-app-oso20200316-fearless-kob-he.mybluemix.net/hello
 
 ```
 $ git clone https://github.com/osonoi/nodejs_training2.git
-$ cd nodejs_training2.git
+$ cd nodejs_training2
 ```
 ### ローカルで動作
 
