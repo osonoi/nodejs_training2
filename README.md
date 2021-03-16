@@ -82,7 +82,7 @@ Container Imageを選択<br>
 数分待つとトポロジー図の縁が青くなるとデプロイ完了右上のアイコンをクリックすると"Open URL"が出て別タブでアプリが起動
 
 
-# アプリ使い方
+# アプリ概要
 
 <kbd><img src="images/how.png" width="640px">
 
