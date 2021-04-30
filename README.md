@@ -87,15 +87,15 @@ Container Imageを選択<br>
 データベースの編集は　DB Browser for SQLiteでできます。
 https://sqlitebrowser.org/
 
-<kbd><img src="images/how.png" width="640px">
+<img src="images/how.png" width="640px">
 
-<kbd><img src="images/overview.png" width="640px">
+<img src="images/overview.png" width="640px">
 
-<kbd><img src="images/page.png" width="640px">
+<img src="images/page.png" width="640px">
 
-<kbd><img src="images/routing.png" width="640px">
+<img src="images/routing.png" width="640px">
 
-<kbd><img src="images/ejs.png" width="640px">
+<img src="images/ejs.png" width="640px">
 
-<kbd><img src="images/hellojs.png" width="640px">
+<img src="images/hellojs.png" width="640px">
 
